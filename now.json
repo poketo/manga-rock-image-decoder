@@ -1,0 +1,9 @@
+{
+  "name": "manga-rock-image-decoder",
+  "alias": "mri-image-decoder.now.sh",
+  "public": true,
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  }
+}

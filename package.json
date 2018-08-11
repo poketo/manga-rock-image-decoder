@@ -1,0 +1,19 @@
+{
+  "name": "manga-rock-image-decoder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "deploy": "now"
+  },
+  "dependencies": {
+    "got": "^8.3.2",
+    "micro": "^9.3.2"
+  },
+  "devDependencies": {
+    "jest": "^23.3.0",
+    "micro-dev": "^3.0.0"
+  },
+  "license": "MIT"
+}
