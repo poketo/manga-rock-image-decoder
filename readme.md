@@ -8,7 +8,7 @@ This microservice was built for the [poketo library](https://github.com/poketo/n
 
 ## Usage
 
-This microservice is deployed to `https://mri-image-decoder.now.sh`. To decode an image, simply pass the image's URL to the `?url` query parameter like so:
+This package is available on npm, or as a microservice deployed to `https://mri-image-decoder.now.sh`. To use the microservice, pass the image's URL to the `?url` query parameter like so:
 
 ```
 https://mri-image-decoder.now.sh?url=https://f01.mrcdn.info/file/mrfiles/i/6/n/l/T3.3BZTN7p5.mri
@@ -19,6 +19,30 @@ This will return the image with the correct content type set, so you can simply 
 ```html
 <img src="https://mri-image-decoder.now.sh?url=https://f01.mrcdn.info/file/mrfiles/i/6/n/l/T3.3BZTN7p5.mri" />
 ```
+
+### JS API
+
+To use this package from npm, install it:
+
+```bash
+npm install manga-rock-image-decoder
+```
+
+This package exports a single function, `decode` which accepts a .mri image buffer and returns a converted .webp buffer
+
+```js
+const decode = require('manga-rock-image-decoder');
+
+const mriImageBuffer = /* get the buffer */;
+const webpImageBuffer = decode(mriImageBuffer);
+
+fs.writeFile('image.webp', webpImageBuffer, (err) => {
+
+});
+```
+
+
+You can use an image conversion tool, such as [sharp](https://www.npmjs.com/package/sharp), to convert the .webp image to
 
 ## Credits
 
