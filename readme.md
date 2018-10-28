@@ -36,7 +36,7 @@ const decode = require('manga-rock-image-decoder');
 const webpImageBuffer = decode(mriImageBuffer);
 ```
 
-You can use an image conversion tool, such as [sharp](https://www.npmjs.com/package/sharp), to convert the .webp image to
+You can use any image conversion tool, such as [sharp](https://www.npmjs.com/package/sharp), to convert the .webp image to .jpg, .png or other formats.
 
 ## Credits
 
