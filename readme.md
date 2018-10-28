@@ -33,14 +33,8 @@ This package exports a single function, `decode` which accepts a .mri image buff
 ```js
 const decode = require('manga-rock-image-decoder');
 
-const mriImageBuffer = /* get the buffer */;
 const webpImageBuffer = decode(mriImageBuffer);
-
-fs.writeFile('image.webp', webpImageBuffer, (err) => {
-
-});
 ```
-
 
 You can use an image conversion tool, such as [sharp](https://www.npmjs.com/package/sharp), to convert the .webp image to
 
