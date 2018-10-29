@@ -4,7 +4,7 @@
 
 MangaRock has a nice API to work with, but obscures images by [encoding them as bitwise xor'd .webp images](https://www.reddit.com/r/codes/comments/7mdx70/need_help_decrypting_this_string/). This codebase is a web microservice that decodes images into their native .webp format for easy consumption outside of MangaRock.
 
-This microservice was built for the [poketo library](https://github.com/poketo/node).
+This library was built for use in [poketo](https://github.com/poketo/node).
 
 ## Usage
 
