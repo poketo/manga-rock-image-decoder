@@ -4,15 +4,13 @@
   "main": "lib/decode.js",
   "scripts": {
     "start": "micro server.js",
-    "dev": "micro-dev server.js",
-    "deploy": "now"
+    "dev": "micro-dev server.js"
   },
   "dependencies": {
     "got": "^8.3.2",
     "micro": "^9.3.2"
   },
   "devDependencies": {
-    "jest": "^23.3.0",
     "micro-dev": "^3.0.0"
   },
   "files": [
