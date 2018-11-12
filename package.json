@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "main": "lib/decode.js",
   "scripts": {
-    "start": "micro server.js",
-    "dev": "micro-dev server.js"
+    "start": "micro index.js",
+    "dev": "micro-dev index.js"
   },
   "dependencies": {
     "got": "^8.3.2",
