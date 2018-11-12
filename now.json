@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "name": "manga-rock-image-decoder",
   "alias": "mri-image-decoder.now.sh",
   "public": true,

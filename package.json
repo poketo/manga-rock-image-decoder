@@ -5,7 +5,6 @@
   "scripts": {
     "start": "micro server.js",
     "dev": "micro-dev server.js",
-    "deploy": "now"
   },
   "dependencies": {
     "got": "^9.3.2",
