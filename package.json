@@ -8,8 +8,8 @@
     "deploy": "now"
   },
   "dependencies": {
-    "micro": "^9.3.2",
-    "got": "^8.3.2"
+    "got": "^9.3.2",
+    "micro": "^9.3.3"
   },
   "devDependencies": {
     "micro-dev": "^3.0.0"
