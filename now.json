@@ -6,6 +6,6 @@
     { "src": "index.js", "use": "@now/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/server.js" }
+    { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
